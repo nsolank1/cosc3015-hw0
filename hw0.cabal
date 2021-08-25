@@ -11,7 +11,7 @@ maintainer:         fmcilwai@uwyo.edu
 executable hw0
     main-is:          Main.hs
     build-depends:    
-      base ^>=4.14.1.0,
+      base -any,
       acme-missiles -any
 
     -- Directories containing source files.
